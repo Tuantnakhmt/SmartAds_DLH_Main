@@ -1,0 +1,5 @@
+pymysql
+kafka-python
+pandas 
+cryptography
+redis

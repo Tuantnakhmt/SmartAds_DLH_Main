@@ -1,0 +1,38 @@
+{
+  "partitionToWriteStats" : {
+    "" : [ {
+      "fileId" : "1a746222-d6d0-4e30-9fc5-962de0840f3b-0",
+      "path" : "1a746222-d6d0-4e30-9fc5-962de0840f3b-0_0-32-20_20250604154648408.parquet",
+      "cdcStats" : null,
+      "prevCommit" : "null",
+      "numWrites" : 3,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 3,
+      "totalWriteBytes" : 435296,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 435296,
+      "minEventTime" : null,
+      "maxEventTime" : null,
+      "runtimeStats" : {
+        "totalScanTime" : 0,
+        "totalUpsertTime" : 0,
+        "totalCreateTime" : 1380
+      }
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"top_domains_by_category_record\",\"namespace\":\"hoodie.top_domains_by_category\",\"fields\":[{\"name\":\"new_category\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"domain\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"access_count\",\"type\":\"long\"},{\"name\":\"rank\",\"type\":\"int\"}]}"
+  },
+  "operationType" : "UPSERT"
+}
