@@ -84,7 +84,7 @@ docker exec spark_(.........) spark-submit /app/benchmark/benchmark_incremental_
 
 - 🎯 Phát voucher chính xác theo vị trí và hành vi người dùng
 - 📈 Tính toán top domain theo sở thích người dùng
-- ⚡ Rút ngắn thời gian xử lý (40 phút còn khoảng 6 phút) nhờ Hudi incremental query
+- ⚡ Rút ngắn thời gian xử lý (~40 phút còn khoảng 10 phút) nhờ Hudi incremental query
 - 📊 Trực quan hóa dashboard theo thời gian thực trên Metabase
 
 
